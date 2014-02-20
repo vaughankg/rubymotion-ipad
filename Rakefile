@@ -13,4 +13,5 @@ Motion::Project::App.setup do |app|
   app.name = 'Hello'
   app.device_family = [:ipad]
   app.deployment_target = "5.1"
+  app.interface_orientations = [:landscape_left, :landscape_right]
 end
